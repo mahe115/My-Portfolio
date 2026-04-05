@@ -1,0 +1,1006 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>vCard - Personal Portfolio</title>
+
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon">
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <!--
+    - #MAIN
+  -->
+
+  <main>
+
+    <!--
+      - #SIDEBAR
+    -->
+
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+
+        <figure class="avatar-box">
+          <img src="./assets/images/my-avatar.png" alt="Mahendran B" width="80">
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="Mahendran B">Mahendran B</h1>
+
+          <p class="title">ML Engineeer</p>
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+
+              <a href="mailto:mahe.mahendran806@gmail.com" class="contact-link">mahe.mahendran806@gmail.com</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Phone</p>
+
+              <a href="tel:+919361659233" class="contact-link">+91 93616 59233</a>
+            </div>
+
+          </li>
+
+          <!-- <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="calendar-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Birthday</p>
+
+              <time datetime="1982-06-23">June 23, 1982</time>
+            </div>
+
+          </li> -->
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+
+              <address>Chennai , Tamil Nadu, India</address>
+            </div>
+
+          </li>
+
+        </ul>
+
+        <div class="separator"></div>
+
+        <ul class="social-list">
+
+  <!-- LinkedIn (works fine) -->
+  <li class="social-item">
+    <a href="https://www.linkedin.com/in/mahendran-b-95333521a/" class="social-link" target="_blank">
+      <ion-icon name="logo-linkedin"></ion-icon>
+    </a>
+  </li>
+
+  <!-- LeetCode (custom icon) -->
+  <li class="social-item">
+    <a href="https://leetcode.com/u/Mahendran_B/" class="social-link" target="_blank">
+      <img src="./assets/images/leetcode.svg" alt="LeetCode" width="20">
+    </a>
+  </li>
+
+  <!-- HackerRank (custom icon instead of Instagram) -->
+  <li class="social-item">
+    <a href="https://www.hackerrank.com/profile/mahendran_27" class="social-link" target="_blank">
+      <img src="./assets/images/hackerrank.svg" alt="HackerRank" width="20">
+    </a>
+  </li>
+
+</ul>
+
+    </aside>
+
+
+
+
+
+    <!--
+      - #main-content
+    -->
+
+    <div class="main-content">
+
+      <!--
+        - #NAVBAR
+      -->
+
+      <nav class="navbar">
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <button class="navbar-link  active" data-nav-link>About</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Resume</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Portfolio</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Achievements</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Contact</button>
+          </li>
+
+        </ul>
+
+      </nav>
+
+
+
+
+
+      <!--
+        - #ABOUT
+      -->
+
+      <article class="about  active" data-page="about">
+
+        <header>
+          <h2 class="h2 article-title">About me</h2>
+        </header>
+
+        <section class="about-text">
+        <p>
+        I'm a Machine Learning Engineer in the making, with a strong focus on building scalable AI systems that solve real-world problems.
+        I work across machine learning, deep learning, and AI-driven applications to turn complex challenges into practical solutions.
+       </p>
+
+       <p>
+       I have developed projects ranging from high-accuracy deep learning models to AI-powered automation systems that improve efficiency and decision-making.
+       I enjoy working on end-to-end solutions—from data processing to model deployment—ensuring that every system I build is both impactful and production-ready.
+       </p>
+       </section>
+
+
+        <!--
+          - service
+        -->
+
+        <section class="service">
+
+        <h3 class="h3 service-title">What i'm doing</h3>
+
+        <ul class="service-list">
+
+        <li class="service-item">
+
+         <div class="service-icon-box">
+         <img src="./assets/images/icon-dev.svg" alt="machine learning icon" width="40">
+         </div>
+
+         <div class="service-content-box">
+          <h4 class="h4 service-item-title">Machine Learning Solutions</h4>
+
+         <p class="service-item-text">
+           Building intelligent models to solve real-world problems using supervised and unsupervised learning techniques.
+          </p>
+        </div>
+
+    </li>
+
+    <li class="service-item">
+
+      <div class="service-icon-box">
+        <img src="./assets/images/icon-app.svg" alt="deep learning icon" width="40">
+      </div>
+
+      <div class="service-content-box">
+        <h4 class="h4 service-item-title">Deep Learning & Computer Vision</h4>
+
+        <p class="service-item-text">
+          Developing high-accuracy deep learning models for image classification, detection, and real-time AI applications.
+        </p>
+      </div>
+
+    </li>
+
+    <li class="service-item">
+
+      <div class="service-icon-box">
+        <img src="./assets/images/icon-design.svg" alt="ai automation icon" width="40">
+      </div>
+
+      <div class="service-content-box">
+        <h4 class="h4 service-item-title">AI Automation Systems</h4>
+
+        <p class="service-item-text">
+          Creating AI-powered platforms that automate workflows, improve efficiency, and enable smart decision-making.
+        </p>
+      </div>
+
+    </li>
+
+    <li class="service-item">
+
+      <div class="service-icon-box">
+        <img src="./assets/images/icon-photo.svg" alt="data analytics icon" width="40">
+      </div>
+
+      <div class="service-content-box">
+        <h4 class="h4 service-item-title">Data Analytics & Visualization</h4>
+
+        <p class="service-item-text">
+          Transforming complex data into meaningful insights using dashboards and visualization tools like Power BI.
+        </p>
+      </div>
+
+    </li>
+
+  </ul>
+
+ </section>
+
+        <!--
+          - testimonials
+        -->
+
+        <section class="testimonials">
+
+          
+        </section>
+
+
+        <!--
+          - testimonials modal
+        -->
+
+        <div class="modal-container" data-modal-container>
+
+          <div class="overlay" data-overlay></div>
+
+          <section class="testimonials-modal">
+
+            <button class="modal-close-btn" data-modal-close-btn>
+              <ion-icon name="close-outline"></ion-icon>
+            </button>
+
+            <div class="modal-img-wrapper">
+              <figure class="modal-avatar-box">
+                <img src="./assets/images/avatar-1.png" alt="Daniel lewis" width="80" data-modal-img>
+              </figure>
+
+              <img src="./assets/images/icon-quote.svg" alt="quote icon">
+            </div>
+
+            <div class="modal-content">
+
+
+              <time datetime="2021-06-14">14 June, 2021</time>
+
+              <div data-modal-text>
+                
+              </div>
+
+            </div>
+
+          </section>
+
+        </div>
+
+
+        <!--
+          - clients
+        -->
+
+        
+
+      </article>
+
+ 
+
+
+
+      <!--
+        - #RESUME
+      -->
+<article class="resume" data-page="resume">
+
+  <header>
+    <h2 class="h2 article-title">Resume</h2>
+  </header>
+
+  <!-- EDUCATION -->
+  <section class="timeline">
+
+    <div class="title-wrapper">
+      <div class="icon-box">
+        <ion-icon name="book-outline"></ion-icon>
+      </div>
+
+      <h3 class="h3">Education</h3>
+    </div>
+
+    <ol class="timeline-list">
+
+      <li class="timeline-item">
+
+        <h4 class="h4 timeline-item-title">S.A Engineering College</h4>
+
+        <span>2022 — Present</span>
+
+        <p class="timeline-text">
+          B.E in Computer Science (Artificial Intelligence & Machine Learning) with a CGPA of 8.0/10.
+          Focused on Machine Learning, Deep Learning, Data Structures, and AI system design.
+        </p>
+
+      </li>
+
+      <li class="timeline-item">
+
+        <h4 class="h4 timeline-item-title">Certifications & Continuous Learning</h4>
+
+        <span>2023 — Present</span>
+
+        <p class="timeline-text">
+          Completed Machine Learning Specialization by DeepLearning.AI, Advanced R Programming (IIT Kanpur),
+          and Deep Learning for NLP (IIT Kharagpur), strengthening both theoretical and practical AI knowledge.
+        </p>
+
+      </li>
+
+    </ol>
+
+  </section>
+
+  <!-- EXPERIENCE -->
+  <section class="timeline">
+
+    <div class="title-wrapper">
+      <div class="icon-box">
+        <ion-icon name="book-outline"></ion-icon>
+      </div>
+
+      <h3 class="h3">Experience</h3>
+    </div>
+
+    <ol class="timeline-list">
+
+      <li class="timeline-item">
+
+        <h4 class="h4 timeline-item-title">AI Intern – Infosys Springboard</h4>
+
+        <span>Aug 2025 — Oct 2025</span>
+
+        <p class="timeline-text">
+          Built a full-stack AI platform for Azure capacity planning achieving 84.7% predictive accuracy and reducing operational costs.
+          Conducted AI workshops and contributed to collaborative learning initiatives.
+        </p>
+
+      </li>
+
+      <li class="timeline-item">
+
+        <h4 class="h4 timeline-item-title">IEEE-CS Society Member</h4>
+
+        <span>Mar 2023 — Present</span>
+
+        <p class="timeline-text">
+          Led and delivered hands-on workshops on Generative AI and LLMs, teaching 10+ practical exercises.
+          Received a 4.8/5 rating for improving understanding of AI concepts among students.
+        </p>
+
+      </li>
+
+    </ol>
+
+  </section>
+
+  <!-- SKILLS -->
+  <section class="skill">
+
+    <h3 class="h3 skills-title">My skills</h3>
+
+    <ul class="skills-list content-card">
+
+      <li class="skills-item">
+
+        <div class="title-wrapper">
+          <h5 class="h5">Machine Learning & Deep Learning</h5>
+          <data value="90">90%</data>
+        </div>
+
+        <div class="skill-progress-bg">
+          <div class="skill-progress-fill" style="width: 90%;"></div>
+        </div>
+
+      </li>
+
+      <li class="skills-item">
+
+        <div class="title-wrapper">
+          <h5 class="h5">TensorFlow, PyTorch</h5>
+          <data value="80">80%</data>
+        </div>
+
+        <div class="skill-progress-bg">
+          <div class="skill-progress-fill" style="width: 80%;"></div>
+        </div>
+
+      </li>
+
+      <li class="skills-item">
+
+        <div class="title-wrapper">
+          <h5 class="h5">Computer Vision & NLP</h5>
+          <data value="85">85%</data>
+        </div>
+
+        <div class="skill-progress-bg">
+          <div class="skill-progress-fill" style="width: 85%;"></div>
+        </div>
+
+      </li>
+
+      <li class="skills-item">
+
+        <div class="title-wrapper">
+          <h5 class="h5">Snow Flake & Spark</h5>
+          <data value="60">60%</data>
+        </div>
+
+        <div class="skill-progress-bg">
+          <div class="skill-progress-fill" style="width: 60%;"></div>
+        </div>
+
+      </li>
+
+      <li class="skills-item">
+
+        <div class="title-wrapper">
+          <h5 class="h5">Data Analytics-Power BI</h5>
+          <data value="95">95%</data>
+        </div>
+
+        <div class="skill-progress-bg">
+          <div class="skill-progress-fill" style="width: 95%;"></div>
+        </div>
+
+      </li>
+
+    </ul>
+
+  </section>
+
+</article>
+
+
+
+
+
+      <!--
+        - #PORTFOLIO
+      -->
+
+      <article class="portfolio" data-page="portfolio">
+
+  <header>
+    <h2 class="h2 article-title">Portfolio</h2>
+  </header>
+
+  <section class="projects">
+
+    <ul class="filter-list">
+
+      <li class="filter-item">
+        <button class="active" data-filter-btn>All</button>
+      </li>
+
+      <li class="filter-item">
+        <button data-filter-btn>Machine Learning</button>
+      </li>
+
+      <li class="filter-item">
+        <button data-filter-btn>AI Applications</button>
+      </li>
+
+      <li class="filter-item">
+        <button data-filter-btn>Data Analytics</button>
+      </li>
+
+    </ul>
+
+    <div class="filter-select-box">
+
+      <button class="filter-select" data-select>
+
+        <div class="select-value" data-selecct-value>Select category</div>
+
+        <div class="select-icon">
+          <ion-icon name="chevron-down"></ion-icon>
+        </div>
+
+      </button>
+
+      <ul class="select-list">
+
+        <li class="select-item">
+          <button data-select-item>All</button>
+        </li>
+
+        <li class="select-item">
+          <button data-select-item>Machine Learning</button>
+        </li>
+
+        <li class="select-item">
+          <button data-select-item>AI Applications</button>
+        </li>
+
+        <li class="select-item">
+          <button data-select-item>Data Analytics</button>
+        </li>
+
+      </ul>
+
+    </div>
+
+    <ul class="project-list">
+
+      <!-- AI Mail Manager -->
+      <li class="project-item active" data-filter-item data-category="ai applications">
+        <a href="https://github.com/mahe115/AI-Mail-Manager">
+
+          <figure class="project-img">
+            <div class="project-item-icon-box">
+              <ion-icon name="eye-outline"></ion-icon>
+            </div>
+
+            <img src="./assets/images/project-1.gif" alt="AI Mail Manager" loading="lazy">
+          </figure>
+
+          <h3 class="project-title">AI Mail Manager</h3>
+
+          <p class="project-category">AI Applications</p>
+
+        </a>
+      </li>
+
+      <!-- Deepfake Detection -->
+      <li class="project-item active" data-filter-item data-category="machine learning">
+        <a href="https://github.com/mahe115/Deepfake-image-classification">
+
+          <figure class="project-img">
+            <div class="project-item-icon-box">
+              <ion-icon name="eye-outline"></ion-icon>
+            </div>
+
+            <img src="./assets/images/project-2.png" alt="Deepfake Detection" loading="lazy">
+          </figure>
+
+          <h3 class="project-title">Deepfake Detection System</h3>
+
+          <p class="project-category">Machine Learning</p>
+
+        </a>
+      </li>
+
+      <!-- Brain Tumor Detection -->
+      <li class="project-item active" data-filter-item data-category="machine learning">
+        <a href="https://github.com/mahe115/Brain_Tumour_Detection">
+
+          <figure class="project-img">
+            <div class="project-item-icon-box">
+              <ion-icon name="eye-outline"></ion-icon>
+            </div>
+
+            <img src="./assets/images/project-3.gif" alt="Brain Tumor Detection" loading="lazy">
+          </figure>
+
+          <h3 class="project-title">Brain Tumor Detection</h3>
+
+          <p class="project-category">Machine Learning</p>
+
+        </a>
+      </li>
+
+      <!-- FIFA Analytics -->
+      <li class="project-item active" data-filter-item data-category="data analytics">
+        <a href="https://app.powerbi.com/view?r=eyJrIjoiMWEzYjY1MzMtODI3YS00MWExLWE3MWQtOGY1YjBkZjI4MTY1IiwidCI6ImI5NDFiMTA2LTE1Y2UtNDQ0MS1hZjIwLTkyODU2M2Y1ZWRkOCJ9">
+
+          <figure class="project-img">
+            <div class="project-item-icon-box">
+              <ion-icon name="eye-outline"></ion-icon>
+            </div>
+
+            <img src="./assets/images/project-4.png" alt="FIFA Analytics" loading="lazy">
+          </figure>
+
+          <h3 class="project-title">FIFA Player Analytics</h3>
+
+          <p class="project-category">Data Analytics</p>
+
+        </a>
+      </li>
+
+      <!-- Tesla Stocks Analysis -->
+      <li class="project-item active" data-filter-item data-category="ai applications">
+        <a href="https://github.com/mahe115/Stock-Market-Trend-Analysis">
+
+          <figure class="project-img">
+            <div class="project-item-icon-box">
+              <ion-icon name="eye-outline"></ion-icon>
+            </div>
+
+            <img src="./assets/images/project-5.png" alt="Tesla Stocks Analysis Dashboard" loading="lazy">
+          </figure>
+
+          <h3 class="project-title">Tesla Stocks Analysis</h3>
+
+          <p class="project-category">AI Applications</p>
+
+        </a>
+      </li>
+
+
+
+
+
+
+
+
+      <!-- Cricket Dashboard Analytics -->
+      <li class="project-item active" data-filter-item data-category="data analytics">
+        <a href="https://app.powerbi.com/view?r=eyJrIjoiMWEzYjY1MzMtODI3YS00MWExLWE3MWQtOGY1YjBkZjI4MTY1IiwidCI6ImI5NDFiMTA2LTE1Y2UtNDQ0MS1hZjIwLTkyODU2M2Y1ZWRkOCJ9">
+
+          <figure class="project-img">
+            <div class="project-item-icon-box">
+              <ion-icon name="eye-outline"></ion-icon>
+            </div>
+
+            <img src="./assets/images/project-7.jpg" alt="Cricket Dashboard Analytics" loading="lazy">
+          </figure>
+
+          <h3 class="project-title">Cricket Player Analytics</h3>
+
+          <p class="project-category">Data Analytics</p>
+
+        </a>
+      </li>
+
+      <!-- Azure Cloud Demand Forecasting -->
+      <li class="project-item active" data-filter-item data-category="ai applications">
+        <a href="https://github.com/mahe115/Stock-Market-Trend-Analysis">
+
+          <figure class="project-img">
+            <div class="project-item-icon-box">
+              <ion-icon name="eye-outline"></ion-icon>
+            </div>
+
+            <img src="./assets/images/project-6.gif" alt="Azure Cloud Demand Forecasting Dashboard" loading="lazy">
+          </figure>
+
+          <h3 class="project-title">Azure Cloud Demand Forecasting</h3>
+
+          <p class="project-category">AI Applications</p>
+
+        </a>
+      </li>
+
+
+      
+      <!-- Azure Cloud Demand Forecasting -->
+      <li class="project-item active" data-filter-item data-category="ai applications">
+        <a href="https://github.com/mahe115/Food-Delivery-System-Springboot">
+
+          <figure class="project-img">
+            <div class="project-item-icon-box">
+              <ion-icon name="eye-outline"></ion-icon>
+            </div>
+
+            <img src="./assets/images/project-9.jpg" alt="Food Delivery System Springboot" loading="lazy">
+          </figure>
+
+          <h3 class="project-title">Food Delivery System - SpringBoot</h3>
+
+          <p class="project-category">AI Applications</p>
+
+        </a>
+      </li>
+
+
+    </ul>
+
+  </section>
+
+</article>
+
+
+
+
+      <!--
+        - #BLOG
+      -->
+
+      <article class="blog" data-page="achievements">
+
+        <header>
+          <h2 class="h2 article-title"> Achievements<br>&<br> Certifications</h2>
+        </header>
+
+        <section class="blog-posts">
+
+          <ul class="blog-posts-list">
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/Image-1.jpg" alt="Design conferences in 2022" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Technical Certification</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">November-23, 2023</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Business Analytics Certification</h3>
+
+                  <p class="blog-text">
+                    Advanced R Programming For Data Analytics in Business - IIT Kanpur
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/Image-2.jpeg" alt="Best fonts every designer" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Technical Certification</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">Fab 23, 2024</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Machine Learning Certification</h3>
+
+                  <p class="blog-text">
+                    Three Level Machine Learning Specialization by Standford University and DeepLearning.AI
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/Image-3.png" alt="Design digest #80" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">IEEE CS Society Project Expo</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">November-23, 2023</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Runner UP Title</h3>
+
+                  <p class="blog-text">
+                    Nexus 2k24 Project Expo Conducted by Veltech University along with IEEE
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/Image-4.png" alt="UI interactions of the week" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Forage - Remote Internship</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">Fab 23, 2022</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Accenture Data Analytics Internship </h3>
+
+                  <p class="blog-text">
+                    Completed a remote internship with Accenture through Forage, gaining hands-on experience in data analytics and business intelligence.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/image-5.png" alt="The forgotten art of spacing" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Projct Completion</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">Fab 23, 2025</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Azure Based Demand Forecasting & Capacity Planning Optimization System</h3>
+
+                  <p class="blog-text">
+                    Successfully developed and deployed an Azure-based demand forecasting and capacity planning optimization system, achieving 84.7% predictive accuracy and reducing operational costs as Main Project during AI Internship at Infosys .
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+           
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #CONTACT
+      -->
+
+      <article class="contact" data-page="contact">
+
+        <header>
+          <h2 class="h2 article-title">Contact</h2>
+        </header>
+
+        <section class="mapbox" data-mapbox>
+          <figure>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d237079.25836030618!2d80.05291581483849!3d13.04873400605721!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a5265ea4f7d3361%3A0x6e61a70b6863d433!2sChennai%2C%20Tamil%20Nadu!5e0!3m2!1sen!2sin!4v1775389507678!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </figure>
+        </section>
+
+        <section class="contact-form">
+
+          <h3 class="h3 form-title">Contact Form</h3>
+
+          <form action="#" class="form" data-form>
+
+            <div class="input-wrapper">
+              <input type="text" name="fullname" class="form-input" placeholder="Full name" required data-form-input>
+
+              <input type="email" name="email" class="form-input" placeholder="Email address" required data-form-input>
+            </div>
+
+            <textarea name="message" class="form-input" placeholder="Your Message" required data-form-input></textarea>
+
+            <button class="form-btn" type="submit" disabled data-form-btn>
+              <ion-icon name="paper-plane"></ion-icon>
+              <span>Send Message</span>
+            </button>
+
+          </form>
+
+        </section>
+
+      </article>
+
+    </div>
+
+  </main>
+
+
+
+
+
+
+  <!--
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
